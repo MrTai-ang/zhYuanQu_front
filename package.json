@@ -10,8 +10,11 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@splinetool/runtime": "^1.0.94",
     "axios": "^1.6.8",
+    "echarts": "^5.5.0",
     "js-cookie": "^3.0.5",
+    "v-scale-screen": "^2.2.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

@@ -5,12 +5,12 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component:HomeView
     },
     {
-      path: '/big-screen',
+      path: '/',
       name: 'big-screen',
       component:BigScreenView
     }
